@@ -1,0 +1,65 @@
+/* Страница контактов */
+.contacts-page {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+/* Блок с контактной информацией */
+.contacts-info {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    width: 350px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.contacts-info h2 {
+    color: #1a2a4f;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.icon {
+    font-size: 24px;
+}
+
+/* Форма */
+.contact-form {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    width: 400px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.contact-form h2 {
+    color: #1a2a4f;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.contact-form input,
+.contact-form select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.contact-form button {
+    width: 100%;
+}

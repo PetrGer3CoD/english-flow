@@ -1,0 +1,73 @@
+/* Заголовок страницы курсов */
+.page-header {
+    text-align: center;
+    padding: 50px 20px 30px;
+}
+
+.page-header h1 {
+    font-size: 42px;
+    color: #1a2a4f;
+    margin-bottom: 10px;
+}
+
+.page-header p {
+    color: #5a6874;
+    font-size: 18px;
+}
+
+/* Сетка карточек курсов */
+.courses-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Карточка курса */
+.course-card {
+    background: white;
+    width: 300px;
+    padding: 30px 25px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s;
+}
+
+.course-card:hover {
+    transform: translateY(-8px);
+}
+
+.course-card h3 {
+    font-size: 24px;
+    color: #2A7FFF;
+    margin-bottom: 20px;
+}
+
+.course-card p {
+    margin: 10px 0;
+    color: #4a5b6e;
+}
+
+.price {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1a2a4f;
+    margin: 20px 0;
+}
+
+.course-card .btn {
+    margin-top: 10px;
+    padding: 10px 25px;
+}
+
+/* Примечание под карточками */
+.note {
+    text-align: center;
+    color: #7a8a9a;
+    font-size: 14px;
+    margin: 20px 0 40px;
+}
